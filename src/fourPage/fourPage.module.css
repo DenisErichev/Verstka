@@ -1,0 +1,165 @@
+.four__page__wrapper{
+    margin:120px auto;
+}
+.container{
+
+    max-width: 1252px;
+    margin: 0 auto;
+}
+.title{
+    color:#1E212C;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 150%;
+}
+.double__titles{
+    display: flex;
+    justify-content: space-between;
+}
+.sub__title{
+    font-weight: 900;
+    font-size: 46px;
+    line-height: 130%;
+}
+.text__header{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #424551;
+}
+.bg__gray {
+    z-index:0;
+    position: relative;
+    top:2px;
+
+}
+.header__wrapper{
+    display: flex;
+    flex:0 0 100%;
+    /* min-height: 500px; */
+}
+.arrow__wrapper{
+    display: flex;
+    align-items: center;
+}
+.second__arrow__wrapper{
+    display: flex;
+    align-items: center;
+}
+.circle{
+    z-index: 0;
+    display: flex;
+    margin-left: 15px;
+}
+.second__arrow{
+    display: flex;
+    align-items: center;
+    z-index: 1;
+    position: relative;
+    right: 33px;
+}
+.img__human{
+    max-height: 340px;
+}
+.info_item {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-top: 16px;
+    row-gap: 4px;
+}
+.name{
+    display: flex;
+    justify-content: center;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 150%;
+}
+.job__title{ 
+    display: flex;
+    justify-content: center;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+}
+.items__wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 22px;
+    margin: 60px auto;
+}
+.avatar {
+    min-height: 300px;
+    position: relative;
+    left: 20px;
+    bottom: 325px;
+}
+.icons{
+    position: relative;
+    bottom: 105px;
+    right: -200px;
+    display: flex;
+    column-gap: 15px;
+}
+.title__testimonials{
+    display: flex;
+    justify-content: center;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+}
+.messages{
+    margin-top: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.text__messages__wrapper{
+    max-width: 1020px;
+    max-height: 344px;
+    margin-top: 60px;
+    display: grid;
+    background-color: red;
+}
+.text {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+}
+.name__bayer {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 160%;
+}
+.position {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    
+}
+.titles {
+    row-gap: 8px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+.info{
+    background-color: red;
+}
+.info__wrapper {
+    background-color: gray;
+    max-width: 752px;
+}
